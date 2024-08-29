@@ -226,27 +226,31 @@ nav {
   font-family: "Noto Kufi Arabic", sans-serif;
   color: var(--primary-color);
   background-color: var(--secondary-color);
+  word-wrap: break-word;
+  white-space: normal;
 }
+
 .order__container h5 {
   max-width: fit-content;
   margin-inline: auto;
   margin-bottom: 1rem;
   padding: 0.5rem 2rem;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 400;
+  word-wrap: break-word;
+  white-space: normal;
   font-family: "Noto Kufi Arabic", sans-serif;
   color: var(--primary-color);
   background-color: var(--secondary-color);
 }
 
-.order__container .section__header {
-  margin-bottom: 1rem;
-
+.order__container .section__title {
+  font-size: 10rem;
 }
 
 .order__container .section__description {
   margin-bottom: 2.5rem;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -330,47 +334,6 @@ nav {
 
 
 
-
-
-
-
-/* 
-.reservation {
-  position: relative;
-  isolation: isolate;
-}
-
-.reservation__container h3 {
-  font-size: 4rem;
-  font-weight: 500;
-  font-family: "Noto Kufi Arabic", sans-serif;
-  color: var(--text-dark);
-  text-align: center;
-}
-
-.reservation__container form {
-  max-width: 400px;
-  margin-inline: auto;
-  margin-top: 4rem;
-  display: grid;
-  gap: 1rem;
-}
-
-.reservation__container input {
-  padding: 0.75rem 1rem;
-  outline: none;
-  border: 1px solid var(--text-dark);
-  font-size: 1rem;
-  color: var(--text-dark);
-}
-
-.reservation__container input::placeholder {
-  color: var(--text-dark);
-}
-
-.reservation img {
-  display: none;
-} */
 
 
 
@@ -619,6 +582,12 @@ nav {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+}
+
+.destination__details h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--text-light);
 }
 
 .destination__details h4 {
