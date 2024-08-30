@@ -106,7 +106,7 @@ nav {
 }
 
 .nav__logo img {
-  max-width: 250px;
+  max-width: 200px;
 }
 
 .nav__logo-dark {
@@ -114,7 +114,7 @@ nav {
 }
 
 .nav__menu__btn {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: var(--white);
   cursor: pointer;
 }
@@ -234,8 +234,8 @@ nav {
   max-width: fit-content;
   margin-inline: auto;
   margin-bottom: 1rem;
-  padding: 0.5rem 2rem;
-  font-size: 1.3rem;
+  padding: 0.5rem 0.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
   word-wrap: break-word;
   white-space: normal;
@@ -573,7 +573,7 @@ nav {
 }
 
 .destination__details {
-  padding: 1rem 1.5rem;
+  padding: 1rem 0.3rem;
 }
 
 .destination__details div {
